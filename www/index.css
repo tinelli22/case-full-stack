@@ -1,0 +1,21 @@
+.title {
+    color: var(--tertiary);
+    padding: 3rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title,
+.form-login {
+    margin: auto;
+    max-width: 20rem;
+}
+
+.form-login label input {
+    margin-top: 0.5rem;
+}
